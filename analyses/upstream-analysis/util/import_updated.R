@@ -260,6 +260,7 @@ create_seurat_obj <- function(counts_matrix, assay = "RNA",
 #' Calculate mitochondrial percentage from Seurat object.
 #'
 #' @param seurat_obj A Seurat object.
+#' @param genome_name Genome name.
 #'
 #' @return Seurat object.
 #'
